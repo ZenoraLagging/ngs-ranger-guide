@@ -40,7 +40,7 @@
       mix-blend-mode: screen;
       background-image: radial-gradient(
         hsl(196, 100%, 96%),
-        hsl(214, 74%, 54%) 10%,
+        hsl(240, 0%, 59%) 10%,
         hsla(180, 100%, 80%, 0) 56%
       );
   
@@ -92,7 +92,8 @@
         animation-duration: $moveDuration;
         animation-delay: random(37000) + ms;
   
-        @keyframes #{$framesName} {
+  /*         
+      @keyframes #{$framesName} {
           from {
             transform: translate3d(
               #{random(100) + vw},
@@ -109,7 +110,25 @@
             );
           }
         }
-  
+   */
+
+   @keyframes #{$framesName} {
+    from {
+      transform: translate3d(
+        #{random(100) + vw},
+        #{$startPositionY + vh},
+        0
+      );
+    }
+
+    to {
+      transform: translate3d(
+        #{random(100) + vw},
+        #{- $startPositionY - random(30) + vh},
+        0
+      );
+    }
+  }
         .circle {
           animation-delay: random(4000) + ms;
         }
