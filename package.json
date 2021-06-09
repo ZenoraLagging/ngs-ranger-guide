@@ -19,7 +19,8 @@
     "trim-newlines": "^4.0.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm install",
+    "deploy": "gh-pages -d build",
+	"build": "npm start"
   }
 }
