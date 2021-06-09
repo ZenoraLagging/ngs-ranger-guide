@@ -50,7 +50,7 @@
 }
 
 .accordion.active{
-  height: 320px;
+  height: 100%;
   color: $white-color;
 }
 
@@ -72,6 +72,6 @@
 
 .accordion .accordion_content .accordion_item p:last-child{
   color: #ffffff;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 20px;
 }
