@@ -85,6 +85,7 @@
         height: $circleSize + px;
   
         $startPositionY: random(10) + 100;
+        $startPositionX: random(10) + 85;
         $framesName: "move-frames-" + $i;
         $moveDuration: 28000 + random(9000) + ms;
   
@@ -115,16 +116,16 @@
    @keyframes #{$framesName} {
     from {
       transform: translate3d(
-        #{random(100) + vw},
-        #{$startPositionY + vh},
+        #{$startPositionX + vw},
+        #{random(100) + vh},
         0
       );
     }
 
     to {
       transform: translate3d(
-        #{random(100) + vw},
-        #{- $startPositionY - random(30) + vh},
+        #{- $startPositionY - random(300) + vw},
+        #{random(100) + vh},
         0
       );
     }

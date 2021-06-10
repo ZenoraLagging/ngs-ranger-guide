@@ -40,7 +40,7 @@ The above copyright notice and this permission notice shall be included in all c
     <div class="container">
       <div class="navbar-translate">
         <a class="navbar-brand" href="#" rel="tooltip" title="Home" data-placement="bottom" target="_blank">
-          Home
+          <img src="assets/img/NGS-RA-ICON.png">
         </a>
         <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-bar bar1"></span>
@@ -50,8 +50,27 @@ The above copyright notice and this permission notice shall be included in all c
       </div>
       <div class="collapse navbar-collapse justify-content-end" id="navigation">
         <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Quick Start</a>
+              <a class="dropdown-item disabled nav-disabled" href="#">Introduction</a>
+              <a class="dropdown-item" href="#">Credits</a>
+            </div>
+          </li>
           <li class="nav-item">
-            <a href="../index.html" class="nav-link"><i class="nc-icon nc-layout-11"></i> Coming Soon!</a>
+            <a href="../index.html" class="nav-link">Skill Analysis</a>
+          </li>
+          <li class="nav-item">
+            <a href="../index.html" class="nav-link">Photon Arts</a>
+          </li>
+          <li class="nav-item  nav-disabled">
+            <a href="../index.html" class="nav-link disabled">Gearing Up</a>
+          </li>
+          <li class="nav-item">
+            <a href="../index.html" class="nav-link">Class Combos</a>
           </li>
         </ul>
       </div>
@@ -374,16 +393,50 @@ The above copyright notice and this permission notice shall be included in all c
   <div class="main">
     <div class="section text-center">
         <div class="container">
-          <div class="alert alert-danger alert-dismissible fade show" role="alert">
-            <strong>Heads up!</strong> We're still updating our information!
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
+          <div class="row">
+            <div class=col-md-12>
+              <div class="alert alert-success" role="alert">
+                <strong class="alert-bold">Last updated: July 9th 2021</strong>
+              </div>
+            </div>
+           </div>
+          <div class="row">
+            <div class=col-md-12>
+              <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <strong class="alert-bold">Heads up!</strong> We're still updating our information!
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+            </div>
+           </div>
+           <br/>
+          <div class="row">
+            <div class="col-md-6 mr-auto">
+                <div class="avatar">
+                  <img src="assets/img/sd-avatar.png" alt="Circle Image" class="img-circle img-no-padding img-responsive">
+                  <div class="name">
+                    <h4 class="title">Zenora
+                    </h4>
+                    <h6 class="description">Guide Ownder</h6>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-6 mr-auto">
+              <div class="avatar">
+                <img src="assets/img/spin-cycle-avatar.png" alt="Circle Image" class="img-circle img-no-padding img-responsive spin-avatar-too-big">
+                <div class="name">
+                  <h4 class="title">Spin Cycle
+                  </h4>
+                  <h6 class="description">Guide Ownder</h6>
+                </div>
+              </div>
+          </div>
           </div>
           <div class="row">
-            <div class="col-md-8 ml-auto mr-auto">
+            <div class="col-md-9 ml-auto mr-auto">
               <h2 class="title">Welcome!</h2>
-              <h5 class="description">This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn't scroll to get here. Add a button if you want the user to see more.</h5>
+              <h4 class="description">Click on a section below to get started!</h4>
               <br>
             </div>
           </div>
@@ -417,7 +470,7 @@ The above copyright notice and this permission notice shall be included in all c
               </div>
             </div>
             <div class="col-md-3">
-              <div class="card info">
+              <div class="card info card-disabled">
                <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
                <div class="icon icon-info">
                 <i class="nc-icon nc-credit-card"></i>
@@ -475,12 +528,6 @@ The above copyright notice and this permission notice shall be included in all c
           <ul>
             <li>
               <a href="#" target="_blank">Home</a>
-            </li>
-            <li>
-              <a href="http://blog.creative-tim.com/" target="_blank">Blog</a>
-            </li>
-            <li>
-              <a href="https://www.creative-tim.com/license" target="_blank">Licenses</a>
             </li>
           </ul>
         </nav>

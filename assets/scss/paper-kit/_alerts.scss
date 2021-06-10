@@ -5,6 +5,10 @@
     padding: 10px 15px;
     font-size: 14px;
 
+    .alert-bold {
+        font-weight: bold !important;
+    }
+
     & .close{
         font-size: $font-size-large;
         color: $white-color;

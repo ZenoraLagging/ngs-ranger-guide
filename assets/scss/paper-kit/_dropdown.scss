@@ -37,7 +37,7 @@
 }
 
 .dropdown-menu{
-    background-color: $white-color;
+    background-color: transparent;
     border: 0 none;
     border-radius: $border-radius-extreme;
     margin-top: 10px;
@@ -62,13 +62,14 @@
     }
 
     .dropdown-item{
-        color: $font-color;
+        color: $white-color;
         font-size: $font-size-base;
         padding: 10px 45px 10px 15px;
         clear: both;
         white-space: nowrap;
         width: 100%;
         display: block;
+        background-color: $black-color;
 
        img{
            margin-top: -3px;
@@ -121,14 +122,14 @@
 
     .dropdown-item:hover,
     .dropdown-item:focus{
-        color: $white-color !important;
+        color: $black-color !important;
         opacity: 1;
         text-decoration: none;
 
     }
     .dropdown-item:hover,
     .dropdown-item:focus{
-        background-color: $default-color;
+        background-color: $white-bg;
     }
 
     &.dropdown-primary .dropdown-item:hover,

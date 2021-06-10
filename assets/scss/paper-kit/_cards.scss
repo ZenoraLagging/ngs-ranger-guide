@@ -25,12 +25,17 @@
     &.no-transition:hover,
     &.page-carousel:hover,
     &.card-refine:hover,
-    &.card-register:hover{
+    &.card-register:hover,
+    &.card-disabled:hover{
         box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
         transform: none;
         -webkit-transform: none;
         -ms-transform: none;
         -moz-transform: none;
+    }
+
+    &.card-disabled{
+        opacity: 0.5;
     }
 
     a:not(.btn){
