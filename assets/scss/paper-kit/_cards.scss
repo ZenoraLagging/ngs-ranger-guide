@@ -47,7 +47,7 @@
         }
     }
     .card-description{
-        color: $dark-gray;
+        color: $black-color;
         margin-bottom: 5px;
         margin-top: 15px;
     }
@@ -176,6 +176,20 @@
     .card-category{
         color: $dark-gray;
     }
+
+    .card-horizontal {
+        display: flex;
+        padding-left: 10px;
+        flex: 1 1 auto;
+        align-items: center;
+        justify-content: center;
+        .skill-img-icon {
+            max-width: 48px;
+            max-height: 48px;
+            border-radius: 0;
+        }
+      }
+
     .category-social .fa{
         font-size: 24px;
         position: relative;
@@ -496,6 +510,38 @@
 
     &[data-color="orange"]{
         background: $bg-danger;
+    }
+
+    &[data-color="black"]{
+        background: $black-color;
+        .card-title,
+        .card-category,
+        .card-text,
+        .card-body,
+        .card-footer,
+        .stats,
+        small,
+        [class*="text-"],
+        ul li b,
+        a:not(.btn){
+            color: $white-color !important;
+        }
+    }
+
+    &[data-color="gray"]{
+        background: $light-gray;
+        .card-title,
+        .card-category,
+        .card-text,
+        .card-body,
+        .card-footer,
+        .stats,
+        small,
+        [class*="text-"],
+        ul li b,
+        a:not(.btn){
+            color: $black-color !important;
+        }
     }
 }
 
