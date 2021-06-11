@@ -16,11 +16,20 @@
     margin-top: -21px;
     width: 40px;
 }
+
 .img-circle{
     background-color: $white-color;
     margin-bottom: 10px;
     padding: 4px;
     border-radius: 50% !important;
+    max-width: 100%;
+}
+
+.img-circle-front-page{
+    background-color: rgba(33, 32, 32, 0.337);
+    margin-bottom: 5px;
+    padding: 4px;
+    border-radius: 30% !important;
     max-width: 100%;
 
 }
