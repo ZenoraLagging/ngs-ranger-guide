@@ -20,3 +20,47 @@
         }
     }
 }
+
+.testimonials-people {
+    img {
+        margin-top: -230px;
+        position: absolute;
+        border-radius: 20%;
+        transform: translate3D(0px, 50px, 0px);
+        -webkit-transform: translate3D(0px, 50px, 0px);
+        -webkit-transition: all 0.6s cubic-bezier(0.34, 2, 0.7, 1) 0s;
+        -moz-transition: all 0.6s cubic-bezier(0.34, 2, 0.7, 1) 0s;
+        -o-transition: all 0.6s cubic-bezier(0.34, 2, 0.7, 1) 0s;
+        -ms-transition: all 0.6s cubic-bezier(0.34, 2, 0.7, 1) 0s;
+        transition: all 0.6s cubic-bezier(0.34, 2, 0.7, 1) 0s;
+        &.left-first-class-icon {
+            left: 120%;
+            top: 95%;
+        }
+        &.left-second-class-icon {
+            left: 75%;
+            top: 145%;
+        }
+        &.left-third-class-icon {
+            left: 120%;
+            top: 195%;
+        }
+        &.right-first-class-icon {
+            right: 120%;
+            top: 95%;
+        }
+        &.right-second-class-icon {
+            right: 75%;
+            top: 145%;
+        }
+        &.right-third-class-icon {
+            right: 120%;
+            top: 195%;
+        }
+    }
+
+}
+
+.class-icon-summarized {
+    width: 32px;
+}

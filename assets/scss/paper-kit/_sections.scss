@@ -7,6 +7,7 @@
     padding: 60px 0;
 }
 .section-gray{
+    padding: 70px 0;
     background-color: #EEEEEE;
 }
 .section-nude{
@@ -133,5 +134,36 @@
     & .container {
         position: relative;
         z-index: 2;
+    }
+}
+
+.features-5 {
+/*     .container [class*=col-] {
+        border: 1px solid hsla(0,0%,100%,.35);
+        border-top: 0;
+        border-left: 0;
+        &:last-child {
+            border-right: 0;
+        }
+    }
+    .bottom-line [class*=col-] {
+        border-bottom: 0;
+    }
+    .end-line [class*=col-]{
+        border-bottom: 0;
+    } */
+    .subclass-tag {
+        margin-bottom: 1vh;
+    }
+    .info {
+        padding: 30px 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .info, .title {
+    color: $white-color;
+    }
+    .info p {
+        color: hsla(0,0%,100%,.8);
     }
 }
