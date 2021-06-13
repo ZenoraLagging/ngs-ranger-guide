@@ -281,3 +281,33 @@
 .nav-disabled {
   opacity: 0.5;
 }
+
+#cd-vertical-nav {
+  position: fixed;
+  top: 50%;
+  bottom: auto;
+  transform: translateY(-50%);
+  z-index: 4; 
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    text-align: right;
+  }
+  a {
+    display: inline-block;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    width: 100%;
+    color: $black-bg;
+    transition: .15s linear;
+    &.active {
+      background-color: $black-bg;
+      color: $white-color;
+    }
+  }
+  .vertical-nav-dark{
+    background-color: transparent;
+  }
+}

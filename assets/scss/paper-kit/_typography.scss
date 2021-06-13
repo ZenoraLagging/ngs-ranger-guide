@@ -130,6 +130,12 @@ blockquote small{
     margin-bottom: 25px;
     min-height: 32px;
 }
-.title.text-center{
+.title {
+    &.text-center{
     margin-bottom: 50px;
+    }
+    &.text-center-subclass {
+        margin-bottom: 10px;
+        text-align: center;
+    }
 }

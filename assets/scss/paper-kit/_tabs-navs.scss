@@ -150,6 +150,29 @@
     }
 
 }
+.nav-pills-default-outline {
+    background-color: $white-color;
+    display: flex;
+    justify-content: center;
+    .nav-item {
+        transition: 0.15s;
+    }
+        .nav-link {
+            background-color: $black-bg !important;
+            color: $white-color !important;
+            transition: 0.15s;
+            &:hover{
+                background-color: $default-bg !important;
+                color: $white-color;
+            }
+            &:active {
+                background-color: $default-color !important;
+            }
+            &:focus {
+                background-color: $default-color !important;
+            }
+        }
+}
 .nav-pills-primary{
     .nav-item{
         .nav-link{
