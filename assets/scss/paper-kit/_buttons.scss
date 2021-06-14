@@ -228,8 +228,12 @@
 }
 
 .btn-weapon-card {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     opacity: 0.8;
     &:hover, &:active, &:focus, &.active {
         opacity: 1;
     }
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }

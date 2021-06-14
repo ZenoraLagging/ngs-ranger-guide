@@ -196,6 +196,8 @@
     }
 
     &.card-pa-sections, &.card-skill-sections {
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
         .row {
             display: flex;
             justify-content: center; 

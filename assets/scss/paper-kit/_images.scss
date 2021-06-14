@@ -31,7 +31,8 @@
     padding: 4px;
     border-radius: 30% !important;
     max-width: 100%;
-
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .img-thumbnail{
