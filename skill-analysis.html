@@ -63,8 +63,8 @@ The above copyright notice and this permission notice shall be included in all c
           <li class="nav-item">
             <a href="#" class="nav-link">Skill Analysis</a>
           </li>
-          <li class="nav-item nav-disabled">
-            <a href="#" class="nav-link disabled">Photon Arts</a>
+          <li class="nav-item">
+            <a href="photon-arts.html" class="nav-link">Photon Arts</a>
           </li>
           <li class="nav-item nav-disabled">
             <a href="#" class="nav-link disabled">Gearing Up</a>
@@ -77,12 +77,20 @@ The above copyright notice and this permission notice shall be included in all c
     </div>
   </nav>
   <!-- End Navbar -->
+  <div class="page-header page-header-xs" data-parallax="true" style="background-image: url('assets/img/pso2-ngs-command-room.jpg'); background-position:-10px 30%;">
+    <div class="container container-main-page">
+      <div class="motto text-center title-page-header" id="skill-tree">
+        <h2>Skill Analysis</h2>
+        <h4 class="title-uppercase">For Level 20 Cap</h4>
+        </div>
+      </div>
+    <div class="filter"></div>
+  </div>
   <div class="main">
     <div class="section text-center">
-
         <div class="container">
-          <div class="row" id="skill-analysis">
-            <div class="col-md-12 ml-auto mr-auto title">
+          <div class="row">
+            <div class="col-md-12 ml-auto mr-auto">
               <div class="alert alert-info alert-dismissible fade show" role="alert">
                 Click here to swap versions of the guide!
                 <button class="btn btn-default btn-sm" onclick="change_lang()" data-translate="translate">
@@ -103,8 +111,7 @@ The above copyright notice and this permission notice shall be included in all c
               </div>
             </div>
             <div class="col-md-6 ml-auto mr-auto text-center title">
-              <h2>Skill Analysis</h2>
-              <h3 class="title-uppercase"><small>For Level 20 Cap</small></h3>
+              <h2 class="title">Skill Tree</h2>
             </div>
            </div>
            <div class="row">
@@ -119,7 +126,6 @@ The above copyright notice and this permission notice shall be included in all c
                       <div class="card-category">
                         <span class="badge badge-warning main-tag">Core</span>
                       </div>
-                        <h3 class="card-title">Skill Tree</h3>
                       <div class="card-description">
                         <p>Above shown is the core skills that every Ranger should have.</p>
                         <p>There isn't much to take anyways, outside of the status resist skills!</p>
@@ -332,433 +338,458 @@ The above copyright notice and this permission notice shall be included in all c
                           </ul>
                         </div>
                       </div>
-                      <div id="my-tab-content" class="tab-content text-center">
-                        <div class="tab-pane fade show active" id="recommended" role="tabpanel">
-                          <div class="row">
 
-                            <div class="col-md-12 mr-auto ml-auto">
-                              <div class="card card-plain">
-                                <div class="card-horizontal">
-                                  <div class="card-skill-header">
-                                    <img class="card-img skill-img-icon" src="assets/img/skills/ranger/weakbullet.png" alt="Card image cap">
-                                    <span class="badge badge-danger main-tag">Main Class only</span>
-                                    <span class="badge badge-info main-tag">Rifle only</span>
-                                   </div>
-                                  <div class="card-body card-skill-horizontal">
-                                    <h4 class="card-title" data-translate="Weak Bullet">Weak Bullet</h4>
-                                    <div class="table-responsive">
-                                      <table class="table table-sm table-bordered">
-                                        <thead class="thead-dark">
-                                          <tr>
-                                            <th scope="col">Level</th>
-                                            <th scope="col">1</th>
-                                            <th scope="col">2</th>
-                                            <th scope="col">3</th>
-                                            <th scope="col">4</th>
-                                            <th scope="col">5</th>
-                                          </tr>
-                                        </thead>
-                                        <tbody>
-                                          <tr>
-                                            <th scope="row">Damage</th>
-                                            <td colspan="5">120%</td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row">Max Shots</th>
-                                            <td colspan="5">3</td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row">Mark Duration</th>
-                                            <td colspan="5">15s</td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row">Cooldown (after firing 3rd)</th>
-                                            <td>30s</td>
-                                            <td>25s</td>
-                                            <td>20s</td>
-                                            <td>15s</td>
-                                            <td>10s</td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
+                        <div id="my-tab-content" class="tab-content text-center">
+                          <div class="tab-pane fade show active" id="recommended" role="tabpanel">
+                            <div class="row">
+
+                              <div class="col-md-12 mr-auto ml-auto">
+                                <div class="card card-plain card-skill-sections">
+                                  <div class="row">
+                                    <div class="col-md-2">
+                                      <img class="card-img skill-img-icon" src="assets/img/skills/ranger/weakbullet.png" alt="Card image cap">
+                                      <span class="badge badge-danger main-tag">Main Class only</span>
+                                      <span class="badge badge-info main-tag">Rifle only</span>
                                     </div>
-                                    <p class="card-text">
-                                      Fires a bullet that increases damage dealt to the hit part.
-                                    </p>
+                                    <div class="col-md-8">
+                                      <div class="card-body">
+                                        <h4 class="card-title" data-translate="Weak Bullet">Weak Bullet</h4>
+                                        <div class="table-responsive">
+                                          <table class="table table-sm table-bordered card-table">
+                                            <thead class="thead-dark">
+                                              <tr>
+                                                <th scope="col">Level</th>
+                                                <th scope="col">1</th>
+                                                <th scope="col">2</th>
+                                                <th scope="col">3</th>
+                                                <th scope="col">4</th>
+                                                <th scope="col">5</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <th scope="row">Damage</th>
+                                                <td colspan="5">120%</td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">Max Shots</th>
+                                                <td colspan="5">3</td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">Mark Duration</th>
+                                                <td colspan="5">15s</td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">Cooldown (after firing 3rd)</th>
+                                                <td>30s</td>
+                                                <td>25s</td>
+                                                <td>20s</td>
+                                                <td>15s</td>
+                                                <td>10s</td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </div>
+                                        <p class="card-text">
+                                          Fires a bullet that increases damage dealt to the hit part.
+                                        </p>
+                                      </div>
+                                  </div>
                                   </div>
                                 </div>
                               </div>
-                            </div>
 
-                            <div class="col-md-12 mr-auto ml-auto">
-                              <div class="card card-plain">
-
-                                <div class="card-horizontal">
-                                  <div class="card-skill-header">
-                                    <img class="card-img skill-img-icon" src="assets/img/skills/ranger/weakbulletreinforce.png" alt="Card image cap">
-                                    <span class="badge badge-danger main-tag">Main Class only</span>
-                                  </div>
-                                  <div class="card-body card-skill-horizontal">
-                                    <h4 class="card-title text-center" data-translate="Weak Bullet Reinforce">Weak Bullet Reinforce</h4>
-                                    <div class="table-responsive">
-                                      <table class="table table-sm table-bordered">
-                                        <thead class="thead-dark">
-                                          <tr>
-                                            <th scope="col">Level</th>
-                                            <th scope="col">1</th>
-                                          </tr>
-                                        </thead>
-                                        <tbody>
-                                          <tr>
-                                            <th scope="row">Damage</th>
-                                            <td colspan="1">125%</td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row">Mark Duration</th>
-                                            <td colspan="1">15</td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row">Required Hit Count</th>
-                                            <td colspan="1">100 hits</td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
+                              <div class="col-md-12 mr-auto ml-auto">
+                                <div class="card card-plain card-skill-sections">
+                                  <div class="row">
+                                    <div class="col-md-2">
+                                      <img class="card-img skill-img-icon" src="assets/img/skills/ranger/weakbulletreinforce.png" alt="Card image cap">
+                                      <span class="badge badge-danger main-tag">Main Class only</span>
                                     </div>
-                                    <p class="card-text">
-                                      Parts hit by <strong data-translate="Weak Bullet">Weak Bullet</strong> that are hit a set number of times will take increased damage, and the effect duration of the skill will be extended.									
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-
-                            <div class="col-md-12 mr-auto ml-auto">
-                              <div class="card card-plain">
-                                <div class="card-horizontal">
-                                  <div class="card-skill-header">
-                                  <img class="card-img skill-img-icon" src="assets/img/skills/ranger/grenadier.png" alt="Card image cap">
-                                  <span class="badge badge-info main-tag">Rifle only</span>
-                                  </div>
-                                  <div class="card-body card-skill-horizontal">
-                                    <h4 class="card-title text-center" data-translate="Rifle Grenadier">Rifle Grenadier</h4>
-                                    <div class="table-responsive">
-                                      <table class="table table-sm table-bordered">
-                                        <thead class="thead-dark">
-                                          <tr>
-                                            <th scope="col">Level</th>
-                                            <th scope="col">1</th>
-                                          </tr>
-                                        </thead>
-                                        <tbody>
-                                          <tr>
-                                            <th scope="row">Trap Power</th>
-                                            <td colspan="1">500%</td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row">Grenade Power</th>
-                                            <td colspan="1">400</td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row">Cooldown</th>
-                                            <td>30s</td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                        <h4 class="card-title text-center" data-translate="Weak Bullet Reinforce">Weak Bullet Reinforce</h4>
+                                        <div class="table-responsive">
+                                          <table class="table table-sm table-bordered card-table">
+                                            <thead class="thead-dark">
+                                              <tr>
+                                                <th scope="col">Level</th>
+                                                <th scope="col">1</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <th scope="row">Damage</th>
+                                                <td colspan="1">125%</td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">Mark Duration</th>
+                                                <td colspan="1">15</td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">Required Hit Count</th>
+                                                <td colspan="1">100 hits</td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </div>
+                                        <p class="card-text">
+                                          Parts hit by <strong data-translate="Weak Bullet">Weak Bullet</strong> that are hit a set number of times will take increased damage, and the effect duration of the skill will be extended.									
+                                        </p>
+                                      </div>
                                     </div>
-                                    <p class="card-text">
-                                      When you have an Assault Rifle equipped, press and hold the Weapon Action button to add a grenade attack. <br> Input a direction at the same time to throw the grenade, or input none to place the grenade at the current location.
-                                    </p>
+                                    </div>
                                   </div>
                                 </div>
                               </div>
-                            </div>
 
-                            <div class="col-md-12 mr-auto ml-auto">
-                              <div class="card card-plain">
-                                <div class="card-horizontal">
-                                  <div class="card-skill-header">
-                                    <img class="card-img skill-img-icon" src="assets/img/skills/ranger/slideshotadvance.png" alt="Card image cap">
+                              <div class="col-md-12 mr-auto ml-auto">
+                                <div class="card card-plain card-skill-sections">
+                                  <div class="row">
+                                    <div class="col-md-2 card-skill-header">
+                                    <img class="card-img skill-img-icon" src="assets/img/skills/ranger/grenadier.png" alt="Card image cap">
                                     <span class="badge badge-info main-tag">Rifle only</span>
-                                  </div>
-                                  <div class="card-body card-skill-horizontal">
-                                    <h4 class="card-title text-center" data-translate="Rifle Slide Shot Advance">Rifle Slide Shot Advance</h4>
-                                    <p class="card-text">
-                                      With an Assault Rifle equipped, Weapon Actions will trigger an invulnerability period.
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-
-                            <div class="col-md-12 mr-auto ml-auto">
-                              <div class="card card-plain">
-                                <div class="card-horizontal">
-                                  <div class="card-skill-header">
-                                    <img class="card-img skill-img-icon" src="assets/img/skills/ranger/spreadshot.png" alt="Card image cap">
-                                    <span class="badge badge-info main-tag">Rifle only</span>
-                                  </div>
-                                  <div class="card-body card-skill-horizontal">
-                                    <h4 class="card-title text-center" data-translate="Spread Shot">Spread Shot</h4>
-                                    <p class="card-text">
-                                      Expend a gauge built up by Assault Rifle attacks to fire a special close range shotgun blast.
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-
-                            <div class="col-md-12 mr-auto ml-auto">
-                              <div class="card card-plain">
-                                <div class="card-horizontal">
-                                  <div class="card-skill-header">
-                                    <img class="card-img skill-img-icon" src="assets/img/skills/ranger/spreadshotescape.png" alt="Card image cap">
-                                    <span class="badge badge-info main-tag">Rifle only</span>
-                                  </div>
-                                  <div class="card-body card-skill-horizontal">
-                                    <h4 class="card-title text-center" data-translate="Spread Shot Quick Escape">Spread Shot Quick Escape</h4>
-                                    <p class="card-text">
-                                      Triggers an invulnerability period when you use Spread Shot. <br> Inputting a direction will also extend the distance of the evasive action.
-                                    </p>
+                                    </div>
+                                    <div class="col-md-8">
+                                      <div class="card-body">
+                                        <h4 class="card-title text-center" data-translate="Rifle Grenadier">Rifle Grenadier</h4>
+                                        <div class="table-responsive">
+                                          <table class="table table-sm table-bordered card-table">
+                                            <thead class="thead-dark">
+                                              <tr>
+                                                <th scope="col">Level</th>
+                                                <th scope="col">1</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <th scope="row">Trap Power</th>
+                                                <td colspan="1">500%</td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">Grenade Power</th>
+                                                <td colspan="1">400</td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">Cooldown</th>
+                                                <td>30s</td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </div>
+                                        <p class="card-text">
+                                          When you have an Assault Rifle equipped, press and hold the Weapon Action button to add a grenade attack. <br> Input a direction at the same time to throw the grenade, or input none to place the grenade at the current location.
+                                        </p>
+                                      </div>
+                                    </div>
                                   </div>
                                 </div>
                               </div>
-                            </div>
 
-                          </div>
-                        </div>
+                              <div class="col-md-12 mr-auto ml-auto">
+                                <div class="card card-plain card-skill-sections">
+                                  <div class="row">
+                                    <div class="col-md-2 card-skill-header">
+                                      <img class="card-img skill-img-icon" src="assets/img/skills/ranger/slideshotadvance.png" alt="Card image cap">
+                                      <span class="badge badge-info main-tag">Rifle only</span>
+                                    </div>
+                                    <div class="col-md-8">
+                                      <div class="card-body card-skill-horizontal">
+                                        <h4 class="card-title text-center" data-translate="Rifle Slide Shot Advance">Rifle Slide Shot Advance</h4>
+                                        <p class="card-text">
+                                          With an Assault Rifle equipped, Weapon Actions will trigger an invulnerability period.
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-md-12 mr-auto ml-auto">
+                                <div class="card card-plain card-skill-sections">
+                                  <div class="row">
+                                    <div class="col-md-2 card-skill-header">
+                                      <img class="card-img skill-img-icon" src="assets/img/skills/ranger/spreadshot.png" alt="Card image cap">
+                                      <span class="badge badge-info main-tag">Rifle only</span>
+                                    </div>
+                                    <div class="col-md-8">
+                                      <div class="card-body card-skill-horizontal">
+                                        <h4 class="card-title text-center" data-translate="Spread Shot">Spread Shot</h4>
+                                        <p class="card-text">
+                                          Expend a gauge built up by Assault Rifle attacks to fire a special close range shotgun blast.
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-md-12 mr-auto ml-auto">
+                                <div class="card card-plain card-skill-sections">
+                                  <div class="row">
+                                    <div class="col-md-2 card-skill-header">
+                                      <img class="card-img skill-img-icon" src="assets/img/skills/ranger/spreadshotescape.png" alt="Card image cap">
+                                      <span class="badge badge-info main-tag">Rifle only</span>
+                                    </div>
+                                    <div class="col-md-8">
+                                      <div class="card-body card-skill-horizontal">
+                                        <h4 class="card-title text-center" data-translate="Spread Shot Quick Escape">Spread Shot Quick Escape</h4>
+                                        <p class="card-text">
+                                          Triggers an invulnerability period when you use Spread Shot. <br> Inputting a direction will also extend the distance of the evasive action.
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                            </div>
                         <div class="tab-pane fade" id="optional" role="tabpanel">
                           <div class="row">
 
                             <div class="col-md-12 mr-auto ml-auto">
-                              <div class="card card-plain">
-                                <div class="card-horizontal">
-                                  <div class="card-skill-header">
+                              <div class="card card-plain card-skill-sections">
+                                <div class="row">
+                                  <div class="col-md-2">
                                     <img class="card-img skill-img-icon" src="assets/img/skills/ranger/launchercharge.png" alt="Card image cap">
                                     <span class="badge badge-info main-tag">Launcher only</span>
                                   </div>
-                                  <div class="card-body card-skill-horizontal">
-                                    <h4 class="card-title text-center" data-translate="Launcher Charge Grouping">Launcher Group Charge</h4>
-                                    <div class="table-responsive">
-                                      <table class="table table-sm table-bordered">
-                                        <thead class="thead-dark">
-                                          <tr>
-                                            <th scope="col">Level</th>
-                                            <th scope="col">1</th>
-                                          </tr>
-                                        </thead>
-                                        <tbody>
-                                          <tr>
-                                            <th scope="row">Attack Count</th>
-                                            <td colspan="1">1</td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row">Damage</th>
-                                            <td>90%</td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
+                                  <div class="col-md-8">
+                                    <div class="card-body card-skill-horizontal">
+                                      <h4 class="card-title text-center" data-translate="Launcher Charge Grouping">Launcher Group Charge</h4>
+                                      <div class="table-responsive">
+                                        <table class="table table-sm table-bordered card-table">
+                                          <thead class="thead-dark">
+                                            <tr>
+                                              <th scope="col">Level</th>
+                                              <th scope="col">1</th>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                            <tr>
+                                              <th scope="row">Attack Count</th>
+                                              <td colspan="1">1</td>
+                                            </tr>
+                                            <tr>
+                                              <th scope="row">Damage</th>
+                                              <td>90%</td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </div>
+                                      <p class="card-text">
+                                        While using a Charged Normal Attack, Area of Effect increases by using a directional input forwards.
+                                      </p>
                                     </div>
-                                    <p class="card-text">
-                                      While using a Charged Normal Attack, Area of Effect increases by using a directional input forwards.
-                                    </p>
                                   </div>
                                 </div>
                               </div>
                             </div>
 
                             <div class="col-md-12 mr-auto ml-auto">
-                              <div class="card card-plain">
-                                <div class="card-horizontal">
-                                  <div class="card-skill-header">
+                              <div class="card card-plain card-skill-sections">
+                                <div class="row">
+                                  <div class="col-md-2">
                                     <img class="card-img skill-img-icon" src="assets/img/skills/ranger/launchercharge.png" alt="Card image cap">
                                     <span class="badge badge-info main-tag">Launcher only</span>
                                   </div>
-                                  <div class="card-body card-skill-horizontal">
-                                    <h4 class="card-title text-center" data-translate="Cluster Bomb Advanced">Cluster Bomb Advanced</h4>
-                                    <div class="table-responsive">
-                                      <table class="table table-sm table-bordered">
-                                        <thead class="thead-dark">
-                                          <tr>
-                                            <th scope="col">Level</th>
-                                            <th scope="col">1</th>
-                                          </tr>
-                                        </thead>
-                                        <tbody>
-                                          <tr>
-                                            <th scope="row">Cooldown</th>
-                                            <td colspan="1">30s</td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
+                                  <div class="col-md-8">
+                                    <div class="card-body card-skill-horizontal">
+                                      <h4 class="card-title text-center" data-translate="Cluster Bomb Advanced">Cluster Bomb Advanced</h4>
+                                      <div class="table-responsive">
+                                        <table class="table table-sm table-bordered card-table">
+                                          <thead class="thead-dark">
+                                            <tr>
+                                              <th scope="col">Level</th>
+                                              <th scope="col">1</th>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                            <tr>
+                                              <th scope="row">Cooldown</th>
+                                              <td colspan="1">30s</td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </div>
+                                      <p class="card-text">
+                                        Shortens the cooldown time between Weapon Actions while a Grenade Launcher is equipped.
+                                      </p>
                                     </div>
-                                    <p class="card-text">
-                                      Shortens the cooldown time between Weapon Actions while a Grenade Launcher is equipped.
-                                    </p>
                                   </div>
                                 </div>
                               </div>
                             </div>
 
                             <div class="col-md-12 mr-auto ml-auto">
-                              <div class="card card-plain">
-                                <div class="card-horizontal">
-                                  <div class="card-skill-header">
+                              <div class="card card-plain card-skill-sections">
+                                <div class="row">
+                                  <div class="col-md-2">
                                     <img class="card-img skill-img-icon" src="assets/img/skills/ranger/slowfall.png" alt="Card image cap">
                                     <span class="badge badge-info main-tag">Ranger weapons only</span>
                                   </div>
+                                  <div class="col-md-8">
                                   <div class="card-body card-skill-horizontal">
                                     <h4 class="card-title text-center" data-translate="Slow Landing Attack">Slow Landing Attack</h4>
                                     <p class="card-text">
                                       Slows fall speed when performing a Normal Attack with a Ranger weapon.
                                     </p>
                                   </div>
+                                  </div>
                                 </div>
                               </div>
                             </div>
 
                             <div class="col-md-12 mr-auto ml-auto">
-                              <div class="card card-plain">
-                                <div class="card-horizontal">
-                                  <div class="card-skill-header">
+                              <div class="card card-plain card-skill-sections">
+                                <div class="row">
+                                  <div class="col-md-2">
                                     <img class="card-img skill-img-icon" src="assets/img/skills/ranger/slowfallcharge.png" alt="Card image cap">
                                     <span class="badge badge-info main-tag">Ranger weapons only</span>
                                   </div>
+                                  <div class="col-md-8">
                                   <div class="card-body card-skill-horizontal">
                                     <h4 class="card-title text-center" data-translate="Slow Landing Charge">Slow Landing Charge</h4>
                                     <p class="card-text">
                                       Slows fall speed when charging a Ranger weapon Photon Art.
                                     </p>
                                   </div>
+                                  </div>
                                 </div>
                               </div>
                             </div>
 
                           </div>
                         </div>
+
                         <div class="tab-pane fade" id="situational" role="tabpanel">
                           <div class="row">
 
                             <div class="col-md-12 mr-auto ml-auto">
-                              <div class="card card-plain">
-                                <div class="card-horizontal">
-                                  <div class="card-skill-header">
+                              <div class="card card-plain card-skill-sections">
+                                <div class="row">
+                                  <div class="col-md-2">
                                     <img class="card-img skill-img-icon" src="assets/img/skills/ranger/badcondition.png" alt="Card image cap">
                                   </div>
-                                  <div class="card-body card-skill-horizontal">
-                                    <h4 class="card-title text-center" data-translate="Bad Condition Ward">Bad Condition Ward</h4>
-                                    <div class="table-responsive">
-                                      <table class="table table-sm table-bordered">
-                                        <thead class="thead-dark">
-                                          <tr>
-                                            <th scope="col">Level</th>
-                                            <th scope="col">1</th>
-                                            <th scope="col">2</th>
-                                            <th scope="col">3</th>
-                                            <th scope="col">4</th>
-                                            <th scope="col">5</th>
-                                            <th scope="col">6</th>
-                                            <th scope="col">7</th>
-                                            <th scope="col">8</th>
-                                            <th scope="col">9</th>
-                                            <th scope="col">10</th>
-                                          </tr>
-                                        </thead>
-                                        <tbody>
-                                          <tr>
-                                            <th scope="row">Ailment Chance (Main)</th>
-                                            <td>75%</td>
-                                            <td>71%</td>
-                                            <td>67%</td>
-                                            <td>64%</td>
-                                            <td>61%</td>
-                                            <td>58%</td>
-                                            <td>56%</td>
-                                            <td>54%</td>
-                                            <td>52%</td>
-                                            <td>50%</td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row">Ailemnt Chance (Sub)</th>
-                                            <td>95%</td>
-                                            <td>93%</td>
-                                            <td>91%</td>
-                                            <td>89%</td>
-                                            <td>87%</td>
-                                            <td>85%</td>
-                                            <td>83%</td>
-                                            <td>81%</td>
-                                            <td>78%</td>
-                                            <td>75%</td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
-                                      </div>
-                                    <p class="card-text">
-                                      Makes you more resistant to status ailments.
-                                    </p>
+                                  <div class="col-md-8">
+                                    <div class="card-body card-skill-horizontal">
+                                      <h4 class="card-title text-center" data-translate="Bad Condition Ward">Bad Condition Ward</h4>
+                                      <div class="table-responsive">
+                                        <table class="table table-sm table-bordered">
+                                          <thead class="thead-dark">
+                                            <tr>
+                                              <th scope="col">Level</th>
+                                              <th scope="col">1</th>
+                                              <th scope="col">2</th>
+                                              <th scope="col">3</th>
+                                              <th scope="col">4</th>
+                                              <th scope="col">5</th>
+                                              <th scope="col">6</th>
+                                              <th scope="col">7</th>
+                                              <th scope="col">8</th>
+                                              <th scope="col">9</th>
+                                              <th scope="col">10</th>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                            <tr>
+                                              <th scope="row">Ailment Chance (Main)</th>
+                                              <td>75%</td>
+                                              <td>71%</td>
+                                              <td>67%</td>
+                                              <td>64%</td>
+                                              <td>61%</td>
+                                              <td>58%</td>
+                                              <td>56%</td>
+                                              <td>54%</td>
+                                              <td>52%</td>
+                                              <td>50%</td>
+                                            </tr>
+                                            <tr>
+                                              <th scope="row">Ailemnt Chance (Sub)</th>
+                                              <td>95%</td>
+                                              <td>93%</td>
+                                              <td>91%</td>
+                                              <td>89%</td>
+                                              <td>87%</td>
+                                              <td>85%</td>
+                                              <td>83%</td>
+                                              <td>81%</td>
+                                              <td>78%</td>
+                                              <td>75%</td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        </div>
+                                      <p class="card-text">
+                                        Makes you more resistant to status ailments.
+                                      </p>
+                                    </div>
                                   </div>
                                 </div>
                               </div>
                             </div>
 
                             <div class="col-md-12 mr-auto ml-auto">
-                              <div class="card card-plain">
-                                <div class="card-horizontal">
-                                  <div class="card-skill-header">
+                              <div class="card card-plain card-skill-sections">
+                                <div class="row">
+                                  <div class="col-md-2">
                                     <img class="card-img skill-img-icon" src="assets/img/skills/ranger/badconditionreduce.png" alt="Card image cap">
                                   </div>
-                                  <div class="card-body card-skill-horizontal">
-                                    <h4 class="card-title text-center" data-translate="Bad Condition Ward Reduction">Bad Condition Ward</h4>
-                                    <div class="table-responsive">
-                                      <table class="table table-sm table-bordered">
-                                        <thead class="thead-dark">
-                                          <tr>
-                                            <th scope="col">Level</th>
-                                            <th scope="col">1</th>
-                                            <th scope="col">2</th>
-                                            <th scope="col">3</th>
-                                            <th scope="col">4</th>
-                                            <th scope="col">5</th>
-                                            <th scope="col">6</th>
-                                            <th scope="col">7</th>
-                                            <th scope="col">8</th>
-                                            <th scope="col">9</th>
-                                            <th scope="col">10</th>
-                                          </tr>
-                                        </thead>
-                                        <tbody>
-                                          <tr>
-                                            <th scope="row">Ailment Duration (Main)</th>
-                                            <td>50%</td>
-                                            <td>46%</td>
-                                            <td>44%</td>
-                                            <td>42%</td>
-                                            <td>40%</td>
-                                            <td>38%</td>
-                                            <td>36%</td>
-                                            <td>34%</td>
-                                            <td>32%</td>
-                                            <td>30%</td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row">Ailment Duration (Sub)</th>
-                                            <td>95%</td>
-                                            <td>90%</td>
-                                            <td>85%</td>
-                                            <td>80%</td>
-                                            <td>75%</td>
-                                            <td>70%</td>
-                                            <td>65%</td>
-                                            <td>60%</td>
-                                            <td>55%</td>
-                                            <td>50%</td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
-                                      </div>
-                                    <p class="card-text">
-                                      Slows fall speed when charging a Ranger weapon Photon Art.
-                                    </p>
+                                  <div class="col-md-8">
+                                    <div class="card-body card-skill-horizontal">
+                                      <h4 class="card-title text-center" data-translate="Bad Condition Ward Reduction">Bad Condition Ward</h4>
+                                      <div class="table-responsive">
+                                        <table class="table table-sm table-bordered">
+                                          <thead class="thead-dark">
+                                            <tr>
+                                              <th scope="col">Level</th>
+                                              <th scope="col">1</th>
+                                              <th scope="col">2</th>
+                                              <th scope="col">3</th>
+                                              <th scope="col">4</th>
+                                              <th scope="col">5</th>
+                                              <th scope="col">6</th>
+                                              <th scope="col">7</th>
+                                              <th scope="col">8</th>
+                                              <th scope="col">9</th>
+                                              <th scope="col">10</th>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                            <tr>
+                                              <th scope="row">Ailment Duration (Main)</th>
+                                              <td>50%</td>
+                                              <td>46%</td>
+                                              <td>44%</td>
+                                              <td>42%</td>
+                                              <td>40%</td>
+                                              <td>38%</td>
+                                              <td>36%</td>
+                                              <td>34%</td>
+                                              <td>32%</td>
+                                              <td>30%</td>
+                                            </tr>
+                                            <tr>
+                                              <th scope="row">Ailment Duration (Sub)</th>
+                                              <td>95%</td>
+                                              <td>90%</td>
+                                              <td>85%</td>
+                                              <td>80%</td>
+                                              <td>75%</td>
+                                              <td>70%</td>
+                                              <td>65%</td>
+                                              <td>60%</td>
+                                              <td>55%</td>
+                                              <td>50%</td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        </div>
+                                      <p class="card-text">
+                                        Slows fall speed when charging a Ranger weapon Photon Art.
+                                      </p>
+                                    </div>
                                   </div>
                                 </div>
                               </div>
@@ -766,6 +797,7 @@ The above copyright notice and this permission notice shall be included in all c
 
                           </div>
                         </div>
+
                       </div>
                     </div>
                   </div>
@@ -777,12 +809,12 @@ The above copyright notice and this permission notice shall be included in all c
   </div>
   <nav id="cd-vertical-nav">
     <nav class="nav nav-pills flex-column vertical-nav-dark">
-      <a class="nav-link" href="#skill-analysis">Analysis</a>
+      <a class="nav-link" href="#skill-tree">Skill Tree</a>
       <a class="nav-link" href="#skill-priority">Priorities</a>
       <a class="nav-link" href="#skill-description">Description</a>
     </nav>
   </nav>
-  <footer class="footer   footer-white ">
+  <footer class="footer footer-black">
     <div class="container">
       <div class="row">
         <nav class="footer-nav">

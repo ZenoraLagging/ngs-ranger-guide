@@ -2,6 +2,9 @@
     padding: 70px 0;
     position: relative;
     background-color: #FFFFFF;
+    &.section-alerts {
+        padding-bottom: 0;
+    }
 }
 .section-with-space{
     padding: 60px 0;
@@ -134,6 +137,12 @@
     & .container {
         position: relative;
         z-index: 2;
+    }
+}
+
+.section-pa {
+    .container {
+        width: 100% !important;
     }
 }
 

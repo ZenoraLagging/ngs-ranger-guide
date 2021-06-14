@@ -226,3 +226,10 @@
         }
     }
 }
+
+.btn-weapon-card {
+    opacity: 0.8;
+    &:hover, &:active, &:focus, &.active {
+        opacity: 1;
+    }
+}

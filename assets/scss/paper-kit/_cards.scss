@@ -38,6 +38,18 @@
         opacity: 0.5;
     }
 
+    &.info-weapon {
+        background-color: #4896ff;
+        .card-text, .card-title {
+        color: $white-bg !important;
+        }
+        &:hover {
+            .btn-weapon-card {
+                opacity: 1;
+            }
+        }
+    }
+
     a:not(.btn){
         color: $black-hr;
 
@@ -177,6 +189,44 @@
         color: $dark-gray;
     }
 
+    .card-pa-image {  
+        img {
+        border-radius: 0 !important;
+        }
+    }
+
+    &.card-pa-sections, &.card-skill-sections {
+        .row {
+            display: flex;
+            justify-content: center; 
+            align-items: center;    
+            .col {
+                div {
+                }
+            }
+        }
+        .card-skill-header {
+            display: flex;
+            flex: 0 0 auto;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 3vh;
+            .skill-img-icon {
+                margin-bottom: 5px;
+            }
+        }
+        .skill-img-icon {
+            max-width: 48px;
+            max-height: 48px;
+            border-radius: 0;
+        }
+    }
+
+    .card-table {
+        margin-top: 15px;
+    }
+
     .card-horizontal {
         display: flex;
         padding-left: 10px;
@@ -199,7 +249,7 @@
                 margin-bottom: 5px;
             }
         }
-      }
+    }
 
     .category-social .fa{
         font-size: 24px;
@@ -614,3 +664,4 @@
       font-size: 1em;
   }
 }
+
