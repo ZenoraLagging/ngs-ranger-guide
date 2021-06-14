@@ -145,6 +145,8 @@ $('a[href*="#"]')
   .not('[href="#recommended"]')
   .not('[href="#optional"]')
   .not('[href="#situational"]')
+  .not('[href="#assault-rifle-page"]')
+  .not('[href="#grenade-launcher-page"]')
   .click(function(event) {
     // On-page links
     if (
