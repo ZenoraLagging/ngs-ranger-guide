@@ -33,6 +33,10 @@
     max-width: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    @media screen and (max-width: 800px) {
+
+        display:none;
+    }
 }
 
 .img-thumbnail{

@@ -172,6 +172,21 @@
                 background-color: $default-color !important;
             }
         }
+
+        @media (max-width: 767px) {
+
+            display: block !important;
+
+            .nav-item:first-child .nav-link {
+                border-radius: 12px 12px 0 0!important;
+                margin-left: -1px;
+            }
+
+            .nav-item:last-child .nav-link {
+                border-radius: 0 0 12px 12px!important;
+                margin-left: -1px;
+            }
+        }
 }
 .nav-pills-primary{
     .nav-item{
