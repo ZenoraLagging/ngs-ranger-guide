@@ -107,6 +107,11 @@ var dictionary = {
   {
       'na':'Multi-launch',
       'jp':'Multiple Launch'
+  },
+  'Massive Hunter':
+  {
+    'na':'Hunter Physique',
+    'jp':'Massive Hunter'
   }
 
 };
