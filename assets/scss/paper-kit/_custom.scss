@@ -68,3 +68,9 @@
 .class-pill-buttons {
     margin: 30px auto;
 }
+
+.container-wide {
+    @media (min-width: 1400px) {
+        max-width: 2440px;
+    }
+}
