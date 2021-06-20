@@ -80,6 +80,11 @@ blockquote small{
 .text-primary, .text-primary:hover{
     color: $primary-color !important;
 }
+
+.text-primary-dark, .text-primary-dark:hover{
+    color: $social-linkedin !important;
+}
+
 .text-info, .text-info:hover{
     color: $info-color !important;
 }
@@ -88,6 +93,9 @@ blockquote small{
 }
 .text-warning, .text-warning:hover{
     color: $warning-color !important;
+}
+.text-warning-dark, .text-warning-dark:hover{
+    color: $filter-warning-darker !important;
 }
 .text-danger, .text-danger:hover{
     color: $danger-color !important;

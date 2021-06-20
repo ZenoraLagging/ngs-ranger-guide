@@ -15,18 +15,18 @@
     transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
 
     &:not(.card-plain):hover {
-      box-shadow: 0px 12px 19px -7px rgba(0, 0, 0, 0.3);
-      transform: translateY(-10px);
-      -webkit-transform: translateY(-10px);
-      -ms-transform: translateY(-10px);
-      -moz-transform: translateY(-10px);
+        box-shadow: 0px 12px 19px -7px rgba(0, 0, 0, 0.3);
+        transform: translateY(-10px);
+        -webkit-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        -moz-transform: translateY(-10px);
     }
 
     &.no-transition:hover,
     &.page-carousel:hover,
     &.card-refine:hover,
     &.card-register:hover,
-    &.card-disabled:hover{
+    &.card-disabled:hover {
         box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
         transform: none;
         -webkit-transform: none;
@@ -34,15 +34,18 @@
         -moz-transform: none;
     }
 
-    &.card-disabled{
+    &.card-disabled {
         opacity: 0.5;
     }
 
     &.info-weapon {
         background-color: #4896ff;
-        .card-text, .card-title {
-        color: $white-bg !important;
+
+        .card-text,
+        .card-title {
+            color: $white-bg !important;
         }
+
         &:hover {
             .btn-weapon-card {
                 opacity: 1;
@@ -50,96 +53,101 @@
         }
     }
 
-    a:not(.btn){
+    a:not(.btn) {
         color: $black-hr;
 
         &:hover,
-        &:focus{
+        &:focus {
             color: $black-color;
         }
     }
-    .card-description{
+
+    .card-description {
         color: $black-color;
         margin-bottom: 5px;
         margin-top: 15px;
     }
 
-    img{
+    img {
         max-width: 100%;
         height: auto;
         border-radius: $border-radius-extreme $border-radius-extreme 0 0;
     }
 
-    &[data-radius="none"]{
+    &[data-radius="none"] {
         border-radius: $border-radius-none;
 
-        .header{
+        .header {
             border-radius: $border-radius-none-top;
 
-            img{
+            img {
                 border-radius: $border-radius-none-top;
             }
         }
     }
 
-    &.card-plain{
+    &.card-plain {
         background-color: transparent;
         box-shadow: none;
         border-radius: 0;
 
 
-        .card-body{
+        .card-body {
             padding-left: 5px;
             padding-right: 5px;
         }
 
-        img{
+        img {
             border-radius: $border-radius-extreme;
         }
     }
 
-    .card-link{
+    .card-link {
         color: $white-color;
     }
 
-    .card-background-image ul li{
+    .card-background-image ul li {
         color: #FFF;
-        border-color: rgba(255,255,255,.3);
+        border-color: rgba(255, 255, 255, .3);
     }
+
     &.card-blog,
-    &.card-testimonial .card-description + .card-title{
+    &.card-testimonial .card-description+.card-title {
         margin-top: 30px;
 
-        & .card-image{
-            .img{
+        & .card-image {
+            .img {
                 border-radius: $border-radius-extreme;
             }
 
-            .card-title{
+            .card-title {
                 text-align: center;
             }
         }
     }
-    &.card:not(.card-plain){
-        .card-image{
-            .img{
+
+    &.card:not(.card-plain) {
+        .card-image {
+            .img {
                 border-bottom-left-radius: 0px;
                 border-bottom-right-radius: 0px;
             }
         }
     }
-    &.card-blog{
+
+    &.card-blog {
         margin-top: 5px;
 
-        .btn{
+        .btn {
             margin: 0 auto;
         }
 
     }
 
-    .author{
+    .author {
         display: inline-block;
-        .avatar{
+
+        .avatar {
             width: 30px;
             height: 30px;
             overflow: hidden;
@@ -147,35 +155,36 @@
             margin-right: 5px;
         }
 
-        .avatar-big{
+        .avatar-big {
             width: 100px;
             height: 100px;
             border-radius: 50% !important;
             position: relative;
             margin-bottom: 15px;
 
-            &.border-white{
+            &.border-white {
                 border: 4px solid $white-color;
             }
-            &.border-gray{
+
+            &.border-gray {
                 border: 4px solid $card-muted-color;
             }
         }
 
     }
 
-    .clearfix + .author{
+    .clearfix+.author {
         margin-top: 15px;
     }
 
-    .stats{
+    .stats {
         display: inline-block;
         float: right;
         color: $dark-gray;
         font-size: $font-size-small;
         margin-top: 6px;
 
-        i{
+        i {
             font-size: 16px;
             position: relative;
             text-align: center;
@@ -185,28 +194,32 @@
             opacity: .6;
         }
     }
-    .card-category{
+
+    .card-category {
         color: $dark-gray;
     }
 
-    .card-pa-image {  
+    .card-pa-image {
         img {
-        border-radius: 0 !important;
+            border-radius: 0 !important;
         }
     }
 
-    &.card-pa-sections, &.card-skill-sections {
+    &.card-pa-sections,
+    &.card-skill-sections {
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
+
         .row {
             display: flex;
-            justify-content: center; 
-            align-items: center;    
+            justify-content: center;
+            align-items: center;
+
             .col {
-                div {
-                }
+                div {}
             }
         }
+
         .card-skill-header {
             display: flex;
             flex: 0 0 auto;
@@ -214,10 +227,12 @@
             align-items: center;
             justify-content: center;
             padding-bottom: 3vh;
+
             .skill-img-icon {
                 margin-bottom: 5px;
             }
         }
+
         .skill-img-icon {
             max-width: 48px;
             max-height: 48px;
@@ -235,11 +250,13 @@
         flex: 1 1 auto;
         align-items: center;
         justify-content: center;
+
         .skill-img-icon {
             max-width: 48px;
             max-height: 48px;
             border-radius: 0;
         }
+
         .card-skill-header {
             display: flex;
             flex: 0 0 auto;
@@ -247,50 +264,55 @@
             align-items: center;
             justify-content: center;
             padding-bottom: 3vh;
+
             .skill-img-icon {
                 margin-bottom: 5px;
             }
         }
     }
 
-    .category-social .fa{
+    .category-social .fa {
         font-size: 24px;
         position: relative;
         margin-top: -4px;
         top: 2px;
         margin-right: 5px;
     }
-    .card-title-uppercase{
+
+    .card-title-uppercase {
         text-transform: uppercase;
     }
 
-    .header{
+    .header {
         position: relative;
         border-radius: $border-radius-small-top;
         z-index: 3;
 
-        &.header-with-icon{
+        &.header-with-icon {
             height: 150px;
         }
-        img{
+
+        img {
             width: 100%;
         }
 
-        .card-category{
+        .card-category {
             padding: 15px;
         }
 
     }
 
-    .card-body{
-        .card-footer{
+    .card-body {
+        .card-footer {
             padding: 0;
         }
-        .card-description + .card-footer{
+
+        .card-description+.card-footer {
             padding-top: 10px;
         }
     }
-    .more{
+
+    .more {
         float: right;
         z-index: 4;
         display: block;
@@ -300,10 +322,10 @@
     }
 
     .filter,
-    .header .actions{
+    .header .actions {
         position: absolute;
         z-index: 2;
-        background-color: rgba(0,0,0,.76);
+        background-color: rgba(0, 0, 0, .76);
         top: 0;
         left: 0;
         width: 100%;
@@ -313,76 +335,78 @@
         opacity: 0;
     }
 
-    .header .actions{
+    .header .actions {
         background-color: transparent;
         z-index: 3;
 
-        .btn{
+        .btn {
             @include vertical-align();
         }
     }
 
-    &:hover{
-        .filter{
+    &:hover {
+        .filter {
             opacity: .7;
         }
 
         .header .social-line,
-        .header .actions{
+        .header .actions {
             opacity: 1;
         }
     }
 
     .card-category,
-    .label{
-        i{
+    .label {
+        i {
             font-size: $font-paragraph;
         }
     }
 
-    > .card-title{
-       margin: 0;
-       padding: 30px 0 0;
+    >.card-title {
+        margin: 0;
+        padding: 30px 0 0;
     }
 
-    .card-body{
+    .card-body {
         padding: 20px;
 
-        .card-title{
+        .card-title {
             margin: 5px 0 0 0;
         }
-        .card-category ~ .card-title{
+
+        .card-category~.card-title {
             margin-top: 5px;
         }
     }
 
-    .card-text{
+    .card-text {
         font-size: $font-paragraph;
         color: $font-color;
         padding-bottom: 15px;
     }
 
-    h6{
+    h6 {
         font-size: $font-size-small;
         margin: 0;
     }
 
-    .card-footer{
+    .card-footer {
         padding: 15px;
-        background: transparent ;
+        background: transparent;
         border-top: 0 none;
 
-        .social-line{
-            .btn:first-child{
+        .social-line {
+            .btn:first-child {
                 border-radius: 0 0 0 6px;
             }
-            .btn:last-child{
+
+            .btn:last-child {
                 border-radius: 0 0 6px 0;
             }
         }
     }
 
-    &.card-separator:after{
+    &.card-separator:after {
         height: 100%;
         right: -15px;
         top: 0;
@@ -392,14 +416,14 @@
         position: absolute;
     }
 
-    .card-icon{
+    .card-icon {
         display: block;
         margin: 0 auto;
         position: relative;
         text-align: center;
         padding: 30px 0 10px;
 
-        i{
+        i {
             font-size: 40px;
             width: 105px;
             border: 2px solid $card-muted-color;
@@ -410,26 +434,26 @@
 
     }
 
-    .col-lg-4 &{
-        .card-icon{
-            i{
+    .col-lg-4 & {
+        .card-icon {
+            i {
                 font-size: 80px;
                 padding: 22px;
             }
         }
     }
 
-    &.card-with-border{
-        .card-body{
+    &.card-with-border {
+        .card-body {
             padding: 15px 15px 25px 15px;
         }
 
-        .card-footer{
+        .card-footer {
             padding-bottom: 25px;
         }
     }
 
-    &.card-with-border:after{
+    &.card-with-border:after {
         position: absolute;
         display: block;
         width: calc(100% - 10px);
@@ -437,33 +461,36 @@
         content: "";
         top: 5px;
         left: 5px;
-        border: 1px solid rgba(0,0,0, 0.15);
+        border: 1px solid rgba(0, 0, 0, 0.15);
         z-index: 1;
         border-radius: 5px;
     }
 
-    &.card-just-text{
-        .card-body{
+    &.card-just-text {
+        .card-body {
             padding: 50px 65px;
             text-align: center;
         }
-        #dLabel{
+
+        #dLabel {
             float: right;
-            i{
+
+            i {
                 font-size: 20px;
             }
         }
-        .dropdown-menu{
+
+        .dropdown-menu {
             margin-top: 55px;
         }
     }
 
-    &[data-background="image"]{
+    &[data-background="image"] {
         background-position: center center;
         background-size: cover;
         text-align: center;
 
-        .card-body{
+        .card-body {
             position: relative;
             z-index: 2;
             min-height: 280px;
@@ -473,11 +500,13 @@
             margin: 0 auto;
             text-align: center;
         }
-        .card-title{
+
+        .card-title {
             color: #FFF;
             margin-top: 10px;
         }
-        &:after{
+
+        &:after {
             position: absolute;
             z-index: 1;
             width: 100%;
@@ -486,26 +515,28 @@
             left: 0;
             top: 0;
             content: "";
-            background-color: rgba(0,0,0,.56);
+            background-color: rgba(0, 0, 0, .56);
             border-radius: $border-radius-extreme;
         }
-        .card-category{
+
+        .card-category {
             color: $white-color;
         }
     }
 
     &[data-background="image"],
     &[data-background="color"],
-    &[data-color]{
-        .image{
+    &[data-color] {
+        .image {
             border-radius: $border-radius-large;
         }
 
-        .filter{
+        .filter {
             border-radius: $border-radius-large;
         }
-        .card-description{
-            color: rgba(255,255,255,.8);
+
+        .card-description {
+            color: rgba(255, 255, 255, .8);
         }
 
         .card-title,
@@ -517,65 +548,66 @@
         small,
         [class*="text-"],
         ul li b,
-        a:not(.btn){
+        a:not(.btn) {
             color: $white-color !important;
         }
 
         a:not(.btn):hover,
-        a:not(.btn):focus{
+        a:not(.btn):focus {
             color: $white-color;
         }
 
-        .card-icon{
-            i{
+        .card-icon {
+            i {
                 color: #FFFFFF;
-                border: 2px solid rgba(255,255,255,.3);
+                border: 2px solid rgba(255, 255, 255, .3);
             }
         }
 
-        &.card-with-border:after{
+        &.card-with-border:after {
             border: 1px solid rgba(255, 255, 255, 0.45);
         }
     }
 
-    &[data-background="image"]{
+    &[data-background="image"] {
 
-        .filter{
+        .filter {
             @include opacity(0.55);
         }
 
-        &:hover .filter{
+        &:hover .filter {
             @include opacity(0.75);
         }
 
     }
 
-    &[data-color="blue"]{
+    &[data-color="blue"] {
         background: $bg-info;
     }
 
-    &[data-color="green"]{
+    &[data-color="green"] {
         background: $bg-success
     }
 
-    &[data-color="yellow"]{
+    &[data-color="yellow"] {
         background: $bg-warning;
     }
 
-    &[data-color="brown"]{
+    &[data-color="brown"] {
         background: $bg-brown;
     }
 
-    &[data-color="purple"]{
+    &[data-color="purple"] {
         background: $bg-purple;
     }
 
-    &[data-color="orange"]{
+    &[data-color="orange"] {
         background: $bg-danger;
     }
 
-    &[data-color="black"]{
+    &[data-color="black"] {
         background: $black-color;
+
         .card-title,
         .card-category,
         .card-text,
@@ -585,13 +617,14 @@
         small,
         [class*="text-"],
         ul li b,
-        a:not(.btn){
+        a:not(.btn) {
             color: $white-color !important;
         }
     }
 
-    &[data-color="gray"]{
+    &[data-color="gray"] {
         background: $light-gray;
+
         .card-title,
         .card-category,
         .card-text,
@@ -601,21 +634,21 @@
         small,
         [class*="text-"],
         ul li b,
-        a:not(.btn){
+        a:not(.btn) {
             color: $black-color !important;
         }
     }
 }
 
-.btn-center{
+.btn-center {
     text-align: center;
 }
 
-.card-big-shadow{
+.card-big-shadow {
     max-width: 320px;
     position: relative;
 
-    &:before{
+    &:before {
         background-image: url("http://static.tumblr.com/i21wc39/coTmrkw40/shadow.png");
         background-position: center bottom;
         background-repeat: no-repeat;
@@ -630,39 +663,54 @@
         z-index: 0;
     }
 }
-.card-image{
-    &.card-big-shadow{
+
+.card-image {
+    &.card-big-shadow {
         max-width: 100%;
     }
-    .card{
+
+    .card {
         background-size: cover;
         min-height: 430px;
         width: 100%;
     }
-    .img-raised{
+
+    .img-raised {
         margin-top: -20px;
     }
 }
 
+.author-note {
+    display: inline-block;
+}
 
-.page-header{
-    .card-pricing.card-plain{
+.card-weapon-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+.page-header {
+    .card-pricing.card-plain {
+
         .card-category,
-        .card-title{
+        .card-title {
             color: $white-color;
         }
     }
 }
 
-.card-plain{
-  .card-avatar{
-      margin-top: 0;
+.card-plain {
+    .card-avatar {
+        margin-top: 0;
     }
 }
 
 .card-refine {
-  .panel-title {
-      font-size: 1em;
-  }
+    .panel-title {
+        font-size: 1em;
+    }
 }
-

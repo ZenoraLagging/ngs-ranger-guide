@@ -112,6 +112,36 @@ var dictionary = {
   {
     'na':'Hunter Physique',
     'jp':'Massive Hunter'
+  },
+  'Cras Series':
+  {
+    'na':'Lightweave Klauz Series',
+    'jp':'Lightweaver Cras Series'
+  },
+  'Resurge Series':
+  {
+    'na':'Resurgir Series',
+    'jp':'Resurge Series'
+  },
+  'Terseus Series':
+  {
+    'na':'Theseus Series',
+    'jp':'Terseus Series'
+  },
+  'Foursis Series':
+  {
+    'na':'Forsis Series',
+    'jp':'Foursis Series'
+  },
+  'Vialto Series':
+  {
+    'na':'Vialt Series',
+    'jp':'Vialto Series'
+  },
+  'Raising Pursuit':
+  {
+    'na':'Escalating Pursuit',
+    'jp':'Raising Pursuit'
   }
 
 };
