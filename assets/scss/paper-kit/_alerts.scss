@@ -1,4 +1,4 @@
-.alert{
+.alert {
     border: 0;
     border-radius: 0;
     color: $white-color;
@@ -9,16 +9,17 @@
         font-weight: bold !important;
     }
 
-    & .close{
+    & .close {
         font-size: $font-size-large;
         color: $white-color;
     }
 
-    .container &{
+    .container & {
         border-radius: 4px;
 
     }
-    .navbar &{
+
+    .navbar & {
         border-radius: 0;
         left: 0;
         position: absolute;
@@ -27,10 +28,12 @@
         width: 100%;
         z-index: 3;
     }
-    .navbar:not(.navbar-transparent) &{
+
+    .navbar:not(.navbar-transparent) & {
         top: 70px;
     }
-    .alert-icon{
+
+    .alert-icon {
         display: block;
         font-size: 30px;
         left: 15px;
@@ -38,11 +41,13 @@
         top: 50%;
         margin-top: -22px;
     }
+
     .alert-wrapper {
-        &.message{
+        &.message {
             padding-right: 60px;
         }
-        i{
+
+        i {
             position: relative;
             font-size: 20px;
             top: 5px;
@@ -51,15 +56,23 @@
         }
     }
 }
-.alert-info{
+
+.alert-info {
     background-color: $bg-info;
 }
+
 .alert-success {
     background-color: $bg-success;
 }
+
+.alert-success-dark {
+    background-color: $filter-success-light;
+}
+
 .alert-warning {
     background-color: $bg-warning;
 }
+
 .alert-danger {
     background-color: $bg-danger;
 }

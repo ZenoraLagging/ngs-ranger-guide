@@ -51,13 +51,25 @@ The above copyright notice and this permission notice shall be included in all c
       <div class="collapse navbar-collapse justify-content-end" id="navigation">
         <ul class="navbar-nav">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a
+              class="nav-link dropdown-toggle"
+              href="./"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
               Home
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item disabled nav-disabled" href="#">Quick Start</a>
-              <a class="dropdown-item disabled nav-disabled" href="#">Introduction</a>
-              <a class="dropdown-item disabled nav-disabled" href="#">Credits</a>
+            <div
+              class="dropdown-menu"
+              aria-labelledby="navbarDropdownMenuLink"
+            >
+              <a class="dropdown-item" href="./">Index</a>
+              <a class="dropdown-item" href="introduction.html"
+                >Introduction</a
+              >
+              <a class="dropdown-item" href="credits.html">Credits</a>
             </div>
           </li>
           <li class="nav-item">
@@ -84,7 +96,6 @@ The above copyright notice and this permission notice shall be included in all c
         <h2>Photon Arts</h2>
         </div>
       </div>
-  </div>
   </div>
   <div class="main">
     <div class="section text-center">
@@ -163,20 +174,20 @@ The above copyright notice and this permission notice shall be included in all c
             <br>
           </div>
           <div class="row center-flex">
-            <div class="col-md-4">
-              <img class="img" src="assets/img/PAs/UINGSWeaponActionLauncher.png">
-          <h5 class="description">Launcher WA</h5>  (if using Rifle & Launcher Multi-Weapon)
-        </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mr-auto ml-auto">
               <h5 class="description"><a href="https://www.youtube.com/watch?v=-15IGtVXuog" target="_blank">Jump-canceled</a></h5>
               <img class="skill-img-icon" src="assets/img/skills/ranger/weakbullet.png" alt="Card image cap">
               <h5 class="description" data-translate="Weak Bullet">Weak Bullet</h5><h5 class="description">x3</h5>
             </div>
-          <div class="col-md-4">
+          <div class="col-md-4 mr-auto ml-auto">
             <h5 class="description">Charged</h5>
             <img class="img" src="assets/img/PAs/UINGSPhotonArtRagingShot.png">
           <h5 class="description" data-translate="Raging Shot">Raging Shot</h5> (While in optimal range)
         </div>
+        <div class="col-md-4 mr-auto ml-auto">
+          <img class="img" src="assets/img/skills/ranger/spreadshot.png">
+        <h5 class="description" data-translate="Spread Shot">Spread Shot</h5> (While in optimal range)
+      </div>
           </div>
         </div>
         <div class="video-container">
@@ -548,7 +559,7 @@ The above copyright notice and this permission notice shall be included in all c
                   </table>
                   <p class="card-description">
                     Throws a sticky bomb that deals no damage on initial contact.
-                    <br>Attacking the stickied enemy activates it, exploding 10 seconds after.
+                    <br>Attacking the stickied enemy <strong>with Launcher attacks</strong> activates it, exploding 10 seconds after.
                     <br>The grenade restores more PP (max 100) based on the number of hits <br><strong>(5 PP x # of hits [max 10 hits])</strong>
                     <br>Learning Cluster Bomb Advanced reduces the cooldown by 30s.
                   </p>
@@ -676,7 +687,6 @@ The above copyright notice and this permission notice shall be included in all c
           </div>
         </div>
       </div>
-    </div>
     <!-- END LAUNCHER PA SECTION -->
     </div>
 
@@ -686,7 +696,19 @@ The above copyright notice and this permission notice shall be included in all c
         <nav class="footer-nav">
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="./">Home</a>
+            </li>
+            <li>
+              <a href="skill-analysis.html">Skills</a>
+            </li>
+            <li>
+              <a href="#">PAs</a>
+            </li>
+            <li>
+              <a href="gearing-up.html">Gears</a>
+            </li>
+            <li>
+              <a href="class-combos.html">Class Combos</a>
             </li>
           </ul>
         </nav>

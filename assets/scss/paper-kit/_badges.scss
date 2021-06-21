@@ -1,5 +1,5 @@
 /*           badges & Progress-bar              */
-.badge{
+.badge {
     padding: 0.4em 0.9em;
     color: $white-color;
     font-weight: 500;
@@ -9,30 +9,37 @@
     margin-bottom: 3px;
     padding-top: 5px;
 
-  &:focus {
-    outline: none;
-  }
-  span[data-role="remove"]:focus {
-    outline: none;
-  }
+    &:focus {
+        outline: none;
+    }
+
+    span[data-role="remove"]:focus {
+        outline: none;
+    }
 }
-.badge-primary{
+
+.badge-primary {
     background-color: $primary-color;
 }
-.badge-info{
+
+.badge-info {
     background-color: $info-color;
 }
-.badge-success{
+
+.badge-success {
     background-color: $success-color;
     color: $white-navbar;
 }
-.badge-warning{
-    background-color: $warning-color;
+
+.badge-warning {
+    background-color: $filter-warning-dark;
 }
-.badge-danger{
+
+.badge-danger {
     background-color: $danger-color;
 }
-.badge-default{
+
+.badge-default {
     background-color: $default-color;
 }
 

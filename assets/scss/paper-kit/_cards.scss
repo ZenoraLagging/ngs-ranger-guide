@@ -66,6 +66,11 @@
         color: $black-color;
         margin-bottom: 5px;
         margin-top: 15px;
+
+        &.big-text {
+            font-size: $font-size-large;
+        }
+
     }
 
     img {
@@ -678,6 +683,7 @@
     .img-raised {
         margin-top: -20px;
     }
+
 }
 
 .author-note {
@@ -691,7 +697,12 @@
     align-content: center;
 }
 
-
+.card-credits-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
 
 .page-header {
     .card-pricing.card-plain {
