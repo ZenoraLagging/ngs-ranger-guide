@@ -150,6 +150,10 @@
 
 .tooltip-text-css {
     border-bottom: 1px dotted #AAA;
+
+    &.dark-theme-text {
+        color: $white-color !important;
+    }
 }
 
 .ngs-weapon-potential-dark {

@@ -142,7 +142,53 @@ var dictionary = {
   {
     'na':'Escalating Pursuit',
     'jp':'Raising Pursuit'
+  },
+  'Affixes':
+  {
+    'na':'Augments',
+    'jp':'Affixes'
+  },
+  'Shoot':
+  {
+    'na':'Precision',
+    'jp':'Shoot'
+  },
+  'Spirita':
+  {
+    'na':'Spirit',
+    'jp':'Spirita'
+  },
+  'Pedas Soul':
+  {
+    'na':'Pettas Soul',
+    'jp':'Pedas Soul'
+  },
+  'Air Domina':
+  {
+    'na':'Ael Domina',
+    'jp':'Air Domina'
+  },
+  'Als Secrete':
+  {
+    'na': 'Alts Secreta',
+    'jp': 'Als Secrete'
+  },
+  'Ability':
+  {
+    'na':'Mastery',
+    'jp':'Ability'
+  },
+  'Dolls Soul':
+  {
+    'na': 'Dolz Soul',
+    'jp': 'Dolls Soul'
+  },
+  'Laborata Note':
+  {
+    'na': 'Lab Note',
+    'jp': 'Laborata Note'
   }
+
 
 };
 var langs = ['jp', 'na'];
@@ -180,8 +226,6 @@ $('a[href*="#"]')
   .not('[href="#recommended"]')
   .not('[href="#optional"]')
   .not('[href="#situational"]')
-  .not('[href="#assault-rifle-page"]')
-  .not('[href="#grenade-launcher-page"]')
   .click(function(event) {
     // On-page links
     if (
@@ -217,11 +261,3 @@ $('a[href*="#"]')
   $('.collapse').collapse({
     toggle: false
   })
-
-  $("#rifle-button").click(function(){
-    $(this).hasClass("active") == false ? $(this).addClass("active") : $(this).removeClass("active");
-  });
-
-  $("#launcher-button").click(function(){
-    $(this).hasClass("active") == false ? $(this).addClass("active") : $(this).removeClass("active");
-  });

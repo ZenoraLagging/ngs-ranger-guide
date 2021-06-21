@@ -97,7 +97,7 @@ The above copyright notice and this permission notice shall be included in all c
         </div>
       </div>
   </div>
-  <div class="main">
+  <div class="main" id="pa-page">
     <div class="section text-center">
         <div class="container">
           <div class="row">
@@ -165,7 +165,7 @@ The above copyright notice and this permission notice shall be included in all c
       </div>
 
     <!-- START RIFLE PA SECTION -->
-    <div class="section section-dark section-pa text-center collapse" id="assault-rifle-page">
+    <div class="section section-dark section-pa text-center collapse" data-parent="#pa-page" id="assault-rifle-page">
       <div class="container">
         <div class="row">
           <div class="col-md-12 ml-auto mr-auto">
@@ -328,7 +328,8 @@ The above copyright notice and this permission notice shall be included in all c
                     </tbody>
                   </table>
                   <p class="card-description">
-                    Fires a exploding bullet. Charging the PA turns it into a spiraling bullet that pierce through enemies.
+                    Fires a exploding bullet. Charging the PA turns it into a piercing bullet.
+                    <br>Uncharged version has better tracking against mobile bosses, but has worse PP efficiency.
                   </p>
                 </div>
               </div>
@@ -425,7 +426,7 @@ The above copyright notice and this permission notice shall be included in all c
     <!-- END RIFLE PA SECTION -->
 
     <!-- START LAUNCHER PA SECTION -->
-    <div class="section section-dark section-pa text-center collapse" id="grenade-launcher-page">
+    <div class="section section-dark section-pa text-center collapse" data-parent="#pa-page" id="grenade-launcher-page">
       <div class="container">
         <div class="row">
           <div class="col-md-12 ml-auto mr-auto">
@@ -647,6 +648,7 @@ The above copyright notice and this permission notice shall be included in all c
                   </table>
                   <p class="card-description">
                     Channels a powerful laser from your launcher. Holding the PA will drain PP continuously, adding a secondary attack after a certain period of time.
+                    <br><strong>Does not contribute to forcing downs against bosses</strong>, making this PA strictly for damage.
                   </p>
                 </div>
               </div>
@@ -680,8 +682,10 @@ The above copyright notice and this permission notice shall be included in all c
                     </tbody>
                   </table>
                   <p class="card-description">
-                    Fires a stream of rockets towards the target, before finishing with a powerful blast. You can move while shooting. <br>
-                    <strong>Goes through all objects</strong> except for walls.
+                    Fires a stream of rockets towards the target, before finishing with a powerful blast. <br>You can move while shooting. 
+                    <br><strong>Goes through all objects</strong> except for walls.
+                    <br>
+                    Has great PP efficiency, and is dash-cancelable up until the 6th shot.
                   </p>
                 </div>
               </div>
@@ -690,6 +694,7 @@ The above copyright notice and this permission notice shall be included in all c
         </div>
       </div>
     <!-- END LAUNCHER PA SECTION -->
+    
     </div>
 
   <footer class="footer footer-black">
@@ -740,5 +745,6 @@ The above copyright notice and this permission notice shall be included in all c
   <script src="assets/js/paper-kit.js?v=2.2.0" type="text/javascript"></script>
   <!--  Custom Plugin    -->
   <script src="assets/js/script.js" type="text/javascript"></script>
+  <script src="assets/js/vertical-nav.js" type="text/javascript"></script>
 </body>
 </html>

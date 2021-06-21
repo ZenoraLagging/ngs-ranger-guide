@@ -690,6 +690,17 @@
     display: inline-block;
 }
 
+.card-unit-stat {
+    img {
+        border-radius: 0 !important;
+    }
+
+}
+
+.card-unit-dark {
+    color: $white-color;
+}
+
 .card-weapon-image {
     display: flex;
     justify-content: center;
