@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserract', sans-serif;
+}
+
+.accordion{
+    width: 100%;
+    height: 5.5vh;
+    margin: 0 auto;
+    background: $card-black-color;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgb(102, 102, 102);
+    overflow: hidden;
+    transition: height 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.accordion .accordion_tab{
+  padding: 20px;
+  cursor: pointer;
+  user-select: none;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.accordion .accordion_tab .accordion_arrow{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 2vh;
+  width: 15px;
+  height: 15px;
+  transition: all 0.3s ease;
+}
+
+.accordion .accordion_tab .accordion_arrow i{
+  width: 100%;
+  height: 100%;
+}
+
+.accordion .accordion_tab.active .accordion_arrow{
+  transform: translateY(-50%) rotate(180deg);
+  right: 1.65vh;
+}
+
+.accordion.active{
+  height: 100%;
+  color: $white-color;
+}
+
+.accordion .accordion_content{
+  padding: 20px;
+  border-top: 1px solid #e9e9e9;
+}
+
+.accordion .accordion_content .accordion_item{
+  margin-bottom: 20px;
+}
+
+.accordion .accordion_content .accordion_item p.item_title{
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: $white-color;
+}
+
+.accordion .accordion_content .accordion_item p:last-child{
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 20px;
+}

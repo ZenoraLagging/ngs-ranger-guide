@@ -1,0 +1,26 @@
+{
+  "name": "ngs-ranger-guide",
+  "description": "PSO2 NGS Ranger Guide",
+  "version": "2.2.0",
+  "homepage": "http://zenoralagging.github.io/ngs-ranger-guide",
+  "author": "Zenora Lagging",
+  "license": "",
+  "devDependencies": {
+    "gh-pages": "^3.2.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-install": "^1.1.0",
+    "gulp-open": "^3.0.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4"
+  },
+  "dependencies": {
+    "trim-newlines": "^4.0.1"
+  },
+  "scripts": {
+    "predeploy": "npm install",
+    "deploy": "gh-pages -d build",
+    "build": "npm start"
+  }
+}
