@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $('body').scrollspy({ target: '#cd-vertical-nav' });
 
 $('a[href*="#"]')
@@ -43,3 +44,6 @@ $('a[href*="#"]')
   $('.collapse').collapse({
     toggle: false
   })
+=======
+$('body').scrollspy({ target: '#cd-vertical-nav' });
+>>>>>>> a1979ab663b559852468b491f99f676d04216384
