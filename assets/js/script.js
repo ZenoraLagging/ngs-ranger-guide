@@ -218,3 +218,8 @@ catch(err)
 }
 
 translate();
+
+
+$( "#circle alt" ).click(function() {
+  alert( "Handler for .click() called." );
+});
