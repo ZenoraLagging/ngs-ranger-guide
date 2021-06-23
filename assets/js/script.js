@@ -223,6 +223,7 @@ $('a[href*="#"]')
   // Remove links that don't actually link to anything
   .not('[href="#"]')
   .not('[href="#0"]')
+  .not('[href="#tooltip"]')
   .not('[href="#recommended"]')
   .not('[href="#optional"]')
   .not('[href="#situational"]')
