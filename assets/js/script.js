@@ -187,6 +187,11 @@ var dictionary = {
   {
     'na': 'Lab Note',
     'jp': 'Laborata Note'
+  },
+  'Gigas Shoot':
+  {
+    'na': 'Gigas Precision',
+    'jp': 'Gigas Shoot'
   }
 
 
