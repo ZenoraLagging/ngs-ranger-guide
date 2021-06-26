@@ -192,6 +192,11 @@ var dictionary = {
   {
     'na': 'Gigas Precision',
     'jp': 'Gigas Shoot'
+  },
+  'Zeont':
+  {
+    'na':'Geant Armor',
+    'jp':'Zeont Armor'
   }
 
 

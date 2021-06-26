@@ -481,7 +481,7 @@ The above copyright notice and this permission notice shall be included in all c
           <div class="row">
             <div class="col-md-12">
               <div class="alert alert-success-dark" role="alert">
-                <strong class="alert-bold">Last updated: June 20th 2021</strong>
+                <strong class="alert-bold">Last updated: June 25th 2021</strong>
               </div>
             </div>
           </div>
@@ -584,20 +584,65 @@ The above copyright notice and this permission notice shall be included in all c
       <div class="section section-dark text-center">
         <div class="container">
           <h2 class="title">Changelogs</h2>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="accordion active">
-                <div class="accordion_tab active">
-                  June 20th 2021
-                  <div class="accordion_arrow">
-                    <i class="nc-icon nc-minimal-down"></i>
-                  </div>
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    June 25th 2021
+                  </button>
+                </h5>
+              </div>
+
+              <div
+                id="collapseOne"
+                class="collapse show"
+                aria-labelledby="headingOne"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <h3>
+                    <a
+                      href="gearing-up.html"
+                      class="text-primary-dark"
+                      target="_blank"
+                      >Gearing Up</a
+                    >
+                  </h3>
+                  Added
+                  <strong data-translate="Zeont">Zeont Series</strong> to the
+                  units section.
                 </div>
-                <div class="accordion_content">
-                  <div class="accordion_item">
-                    <p>NGS Ranger Overview up and running!</p>
-                  </div>
-                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    June 20th 2021
+                  </button>
+                </h5>
+              </div>
+              <div
+                aria-expanded="false"
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordion"
+              >
+                <div class="card-body">NGS Ranger Guide up and running!</div>
               </div>
             </div>
           </div>
