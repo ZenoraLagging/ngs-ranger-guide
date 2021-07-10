@@ -169,3 +169,20 @@
 .tooltip-inner {
     max-width: 350px;
 }
+
+.collapse-dark-theme {
+    h5 {
+        button.btn-link {
+            color: $white-color;
+
+            &:hover {
+                background-color: $white-color;
+
+            }
+        }
+    }
+
+    .tooltip-text-css {
+        color: $white-color !important;
+    }
+}
