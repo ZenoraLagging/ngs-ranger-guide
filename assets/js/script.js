@@ -197,6 +197,16 @@ var dictionary = {
   {
     'na':'Geant Armor',
     'jp':'Zeont Armor'
+  },
+  'Stragga':
+  {
+    'na':'Straga Series',
+    'jp':'Stragga Series'
+  },
+  'Greisen':
+  {
+    'na':'Glissen Series',
+    'jp':'Greisen Series'
   }
 
 

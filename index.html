@@ -583,8 +583,77 @@ The above copyright notice and this permission notice shall be included in all c
       </div>
       <div class="section section-dark text-center">
         <div class="container">
+          <div class="col-md-12 ml-auto mr-auto">
+            <div
+              class="alert alert-info alert-dismissible fade show"
+              role="alert"
+            >
+              Click here to toggle versions for this page!
+              <button
+                class="btn btn-default btn-sm"
+                onclick="change_lang()"
+                data-translate="translate"
+              >
+                Switch to JP terms
+              </button>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="alert"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+          </div>
           <h2 class="title">Changelogs</h2>
           <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingFive">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#collapseFive"
+                    aria-expanded="true"
+                    aria-controls="collapseFive"
+                  >
+                    July 10th 2021
+                  </button>
+                </h5>
+              </div>
+
+              <div
+                id="collapseFive"
+                class="collapse show"
+                aria-labelledby="headingFive"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <h3>
+                    <a
+                      href="gearing-up.html"
+                      class="text-primary-dark"
+                      target="_blank"
+                      >Gearing Up</a
+                    >
+                  </h3>
+                  Added
+                  <img src="assets/img/icons/NGSUIRarity3Star.png" /><strong
+                    data-translate="Greisen"
+                  >
+                    Greisen</strong
+                  >
+                  and <img src="assets/img/icons/NGSUIRarity4Star.png" /><strong
+                    data-translate="Stragga"
+                  >
+                    Stragga</strong
+                  >. <br />
+                  Redid layout for weapons section. <br />
+                  Recategorized some tags for the weapons.
+                </div>
+              </div>
+            </div>
             <div class="card">
               <div class="card-header" id="headingFour">
                 <h5 class="mb-0">
@@ -602,7 +671,7 @@ The above copyright notice and this permission notice shall be included in all c
 
               <div
                 id="collapseFour"
-                class="collapse show"
+                class="collapse"
                 aria-labelledby="headingFour"
                 data-parent="#accordion"
               >
