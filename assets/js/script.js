@@ -207,6 +207,11 @@ var dictionary = {
   {
     'na':'Glissen Series',
     'jp':'Greisen Series'
+  }, 
+  'Ragras Soul':
+  {
+    'na': 'Ragras Soul',
+    'jp': 'Ragras Soul'
   },
   'Evolcoat':
   {
