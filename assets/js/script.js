@@ -212,6 +212,11 @@ var dictionary = {
   {
     'na': 'Ragras Soul',
     'jp': 'Ragras Soul'
+  },
+  'Evolcoat':
+  {
+    'na': 'Evolcoat Series',
+    'jp': 'Evolcoat Series'
   }
 
 
