@@ -208,6 +208,11 @@ var dictionary = {
     'na':'Glissen Series',
     'jp':'Greisen Series'
   }, 
+  'Frostel':
+  {
+    'na':'Frostel Series',
+    'jp':'Frostel Series'
+  }, 
   'Ragras Soul':
   {
     'na': 'Ragras Soul',
