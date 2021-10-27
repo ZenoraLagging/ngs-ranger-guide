@@ -213,6 +213,11 @@ var dictionary = {
     'na':'Frostel Series',
     'jp':'Frostel Series'
   }, 
+  'Flamel':
+  {
+    'na':'Flamel Series',
+    'jp':'Flamel Series'
+  }, 
   'Ragras Soul':
   {
     'na': 'Ragras Soul',
@@ -223,7 +228,6 @@ var dictionary = {
     'na': 'Evolcoat Series',
     'jp': 'Evolcoat Series'
   }
-
 
 };
 var langs = ['jp', 'na'];
