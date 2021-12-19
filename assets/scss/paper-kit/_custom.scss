@@ -186,3 +186,10 @@
         color: $white-color !important;
     }
 }
+
+.blockquote-author {
+    border-left: 3px solid $card-border-color;
+    font-weight: 300;
+    margin: 10px 0px 50px 0px;
+    text-align: center;
+}
