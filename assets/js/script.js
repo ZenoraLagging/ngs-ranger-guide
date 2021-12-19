@@ -187,6 +187,22 @@ var dictionary = {
   'Launcher Blight Rounds': {
     'na': 'Launcher Blight Rounds',
     'jp': 'Launcher Weak Bullet'
+  },
+  'Relik': {
+    'na': 'Relik Dark Rebellion / Relik Tartarus',
+    'jp': 'レリク・ダークリベリオン / レリク・タルタロス'
+  },
+  'Greaga': {
+    'na': 'Greaga Series',
+    'jp': 'Greaga Series'
+  },
+  'Gothica': {
+    'na': 'Gothica Rifle',
+    'jp': '	ゴルシカライフル'
+  },
+  'Fivla': {
+    'na': 'Fivla Launcher',
+    'jp': 'フィブラランチャー'
   }
 
 };
