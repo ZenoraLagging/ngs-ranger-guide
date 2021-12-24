@@ -4654,8 +4654,12 @@ License - nucleoapp.com/license/
   margin-bottom: 10px;
 }
 
+.ivu-avatar-too-small {
+  max-width: 40%;
+}
+
 .my-avatar-too-big-sadge {
-  max-width: 70%;
+  max-width: 45%;
 }
 
 .avatar-section {
@@ -7970,7 +7974,7 @@ License - nucleoapp.com/license/
   height: 100%;
 }
 
-.circle-container {
+.circle-container-disabled {
   z-index: 2;
   position: absolute;
   -webkit-transform: translateY(-10vh);
@@ -7981,17 +7985,17 @@ License - nucleoapp.com/license/
           animation-timing-function: linear;
 }
 
-.circle-container .circle {
+.circle-container-disabled .circle {
   width: 100%;
   height: 100%;
   border-radius: 50%;
   mix-blend-mode: screen;
   background-image: radial-gradient(#ebfaff, #969696 10%, rgba(153, 255, 255, 0) 56%);
-  -webkit-animation: fadein-frames 200ms infinite, scale-frames 2s infinite;
-          animation: fadein-frames 200ms infinite, scale-frames 2s infinite;
+  -webkit-animation: fadein-frames 200ms infinite, scale-frames 2s infinite;
+          animation: fadein-frames 200ms infinite, scale-frames 2s infinite;
 }
 
-.circle-container .circle.alt {
+.circle-container-disabled .circle.alt {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -12287,7 +12291,7 @@ License - nucleoapp.com/license/
           animation-delay: 1216ms;
 }
 
-.circle-container:nth-child(74) {
+.circle-container-disabled:nth-child(74) {
   width: 6px;
   height: 6px;
   -webkit-animation-name: move-frames-74;
@@ -14607,7 +14611,7 @@ License - nucleoapp.com/license/
           animation-delay: 87ms;
 }
 
-.circle-container:nth-child(114) {
+.circle-container-disabled:nth-child(114) {
   width: 3px;
   height: 3px;
   -webkit-animation-name: move-frames-114;
@@ -16811,9 +16815,9 @@ License - nucleoapp.com/license/
           animation-delay: 346ms;
 }
 
-.circle-container:nth-child(152) {
-  width: 5px;
-  height: 5px;
+.circle-container-disabled:nth-child(152) {
+  width: 2px;
+  height: 2px;
   -webkit-animation-name: move-frames-152;
           animation-name: move-frames-152;
   -webkit-animation-duration: 33038ms;
@@ -19859,6 +19863,16 @@ License - nucleoapp.com/license/
   font-weight: 300;
   margin: 10px 0px 50px 0px;
   text-align: center;
+}
+
+.snowflake {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(white));
+  background: linear-gradient(white, white);
+  border-radius: 50%;
+  z-index: 2;
 }
 
 * {
