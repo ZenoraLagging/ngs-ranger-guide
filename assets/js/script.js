@@ -207,6 +207,10 @@ var dictionary = {
   'Cinquem': {
     'na': 'Cinquem Series',
     'jp': 'サンクエイム'
+  },
+  'Spirit Shoot': {
+    'na': 'Spi Precision',
+    'jp': "Spirit Shoot"
   }
 
 };
