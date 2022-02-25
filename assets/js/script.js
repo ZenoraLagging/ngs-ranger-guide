@@ -189,8 +189,8 @@ var dictionary = {
     'jp': 'Launcher Weak Bullet'
   },
   'Relik': {
-    'na': 'Relik Dark Rebellion / Relik Tartarus',
-    'jp': 'レリク・ダークリベリオン / レリク・タルタロス'
+    'na': 'Relik Series',
+    'jp': 'レリク'
   },
   'Greaga': {
     'na': 'Greaga Series',
@@ -203,6 +203,10 @@ var dictionary = {
   'Fivla': {
     'na': 'Fivla Launcher',
     'jp': 'フィブラランチャー'
+  },
+  'Cinquem': {
+    'na': 'Cinquem Series',
+    'jp': 'サンクエイム'
   }
 
 };
