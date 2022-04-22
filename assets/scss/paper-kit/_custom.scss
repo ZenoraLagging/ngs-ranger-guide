@@ -25,6 +25,12 @@
     }
 }
 
+.title {
+    a {
+        color: $white-color !important;
+    }
+}
+
 .subclass-footer {
     background-color: transparent !important;
     border-top: 0 none !important;

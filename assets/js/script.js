@@ -68,6 +68,10 @@ var dictionary = {
     'na': 'Razing Shot',
     'jp': 'Raging Shot'
   },
+  'Revolt Aim': {
+    'na': 'Revolt Aim',
+    'jp': 'Revolt Aim'
+  },
   'Homing Dart': {
     'na': 'Homing Darts',
     'jp': "Homing Dart"
@@ -87,6 +91,10 @@ var dictionary = {
   'Multiple Launch': {
     'na': 'Multi-launch',
     'jp': 'Multiple Launch'
+  },
+  'Divine Impact': {
+    'na': 'Divine Impact',
+    'jp': 'Divine Impact'
   },
   'Massive Hunter': {
     'na': 'Hunter Physique',
