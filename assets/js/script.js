@@ -219,6 +219,10 @@ var dictionary = {
   'Spirit Shoot': {
     'na': 'Spi Precision',
     'jp': "Spirit Shoot"
+  },
+  'Wide Range': {
+    'na': 'Wide Range Blight Rounds',
+    'jp': "Wide Range Weak Bullet"
   }
 
 };
