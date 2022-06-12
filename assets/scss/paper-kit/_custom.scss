@@ -169,14 +169,19 @@
     }
 }
 
+.ngs-weapon-potential {
+
+    img {
+        border-radius: 0px !important;
+    }
+}
+
 .ngs-weapon-potential-dark {
     color: $white-color !important;
 
     a {
         color: $white-color !important;
     }
-
-    p {}
 }
 
 .arrow {
