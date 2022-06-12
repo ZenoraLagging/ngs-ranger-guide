@@ -223,6 +223,26 @@ var dictionary = {
   'Wide Range': {
     'na': 'Wide Range Blight Rounds',
     'jp': "Wide Range Weak Bullet"
+  },
+  'Rugged': {
+    'na': 'Rugged Series',
+    'jp': "ラゲード"
+  },
+  'Rokz': {
+    'na': 'Rokz Series',
+    'jp': "ロクス"
+  },
+  'Sechetyl': {
+    'na': 'Sechetyl Series',
+    'jp': "ゼクストル"
+  },
+  'Evoleclipse': {
+    'na': 'Evoleclipse Series',
+    'jp': "エヴォルイクリス"
+  },
+  'Crocys Soul': {
+    'na': 'Crocys Soul',
+    'jp': 'Crocys Soul'
   }
 
 };
